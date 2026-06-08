@@ -27,16 +27,16 @@ cd sources
  > ## CLONE POKY VERSION
 you need to clone poky
 ```
-git clone git://git.yoctoproject.org/poky.git -b dunfell
+git clone https://git.yoctoproject.org/poky.git -b dunfell
 ```
 
  > ## ADDITIONAL META LAYERS FOR RASPBERRY PI
  clone the following repositories: meta-raspberry, meta-openembedded
 ```
-git clone git://git.yoctoproject.org/meta-raspberrypi.git -b dunfell
+git clone https://git.yoctoproject.org/meta-raspberrypi.git -b dunfell
 ```
 ```
-git clone git://git.openembedded.org/meta-openembedded -b dunfell
+git clone https://git.openembedded.org/meta-openembedded -b dunfell
 ```
 
 GET INSIDE "poky" DIRECTORY
